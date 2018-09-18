@@ -19,7 +19,7 @@ namespace sampleWinformsProject_git
 
         private void btnAlert_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(txtName.Text);
+            MessageBox.Show(string.Format("Hello {0}", txtName.Text));
         }
     }
 }
