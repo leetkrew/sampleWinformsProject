@@ -21,5 +21,11 @@ namespace sampleWinformsProject_git
         {
             MessageBox.Show(string.Format("Hello {0}", txtName.Text));
         }
+
+        private void btnShowForm2_Click(object sender, EventArgs e)
+        {
+            Form2 frm2 = new Form2();
+            frm2.Show();
+        }
     }
 }
