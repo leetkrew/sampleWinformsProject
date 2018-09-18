@@ -16,5 +16,10 @@ namespace sampleWinformsProject_git
         {
             InitializeComponent();
         }
+
+        private void btnAlert_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(txtName.Text);
+        }
     }
 }
